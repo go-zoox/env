@@ -1,4 +1,7 @@
-# Env
+# Env - env to struct
+---
+A simple and zero-dependencies library to parse environment variables into structs
+
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/go-zoox/env)](https://pkg.go.dev/github.com/go-zoox/env)
 [![Build Status](https://github.com/go-zoox/env/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/go-zoox/env/actions/workflows/ci.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-zoox/env)](https://goreportcard.com/report/github.com/go-zoox/env)
