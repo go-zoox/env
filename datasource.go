@@ -5,12 +5,12 @@ import (
 	"os"
 )
 
-// EnvDataSource is a data source that loads data from the environment.
-type EnvDataSource struct {
+// DataSource is a data source that loads data from the environment.
+type DataSource struct {
 }
 
 // Get returns the value of the given key.
-func (EnvDataSource) Get(path, key string) any {
+func (DataSource) Get(path, key string) any {
 	fmt.Println("path", path)
 	fmt.Println("key", key)
 	// value := os.Getenv(key)
